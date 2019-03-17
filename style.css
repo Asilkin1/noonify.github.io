@@ -8,7 +8,8 @@ body {
     color: #d6d6d6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     display: flex;
-    padding-top: 145px;
+    align-items: center;
+    min-height: 100vh;
 }
 
 p {
@@ -19,12 +20,12 @@ svg {
     fill: white;
     height: 85px;
     display: block;
-    margin: auto 35px 0 0;
+    margin: auto 25px 0 0;
 }
 
 .brand p {
     font-size: 20px;
-    color: #999;
+    color: #fff;
 }
 
 .body p {
@@ -50,7 +51,7 @@ h2 {
 .page-wrap {
     background: transparent;
     display: block;
-    width: 513px;
+    max-width: 513px;
     margin: 0 auto;
     color: #111111;
     padding: 20px;
@@ -62,4 +63,46 @@ header {
     align-items: center;
     display: flex;
     margin-bottom: 40px;
+}
+
+form.subscribe {
+    display: flex;
+    margin: 35px 0;
+    width: 100%;
+}
+
+form.subscribe input[type="text"] {
+    border: none;
+    flex: 1;
+    padding: 13px;
+    font-size: 17px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+form.subscribe input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #4f4fff;
+    color: white;
+    font-weight: 400;
+}
+
+form.subscribe input[type="submit"]:hover {
+    background: #1519ff;
+}
+
+footer a {
+    margin-right: 10px;
+    color: #e4e4e4;
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
