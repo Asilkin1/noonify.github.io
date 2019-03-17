@@ -96,6 +96,7 @@ form.subscribe input[type="submit"] {
     background: #fecd07;
     color: #111111;
     font-weight: 400;
+    -webkit-appearance: none;
 }
 
 form.subscribe input[type="submit"]:hover {
