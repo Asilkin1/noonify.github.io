@@ -56,7 +56,7 @@ h2 {
     max-width: 513px;
     margin: 0 auto;
     color: #111111;
-    padding: 20px;
+    padding: 50px 20px;
     border-radius: 5px;
     text-align: left;
 }
@@ -104,7 +104,25 @@ form.subscribe input[type="submit"]:hover {
 
 footer a {
     margin-right: 10px;
-    color: #e4e4e4;
+    color: #7d7d7d;
     text-decoration: none;
-    border-bottom: 1px solid;
+}
+
+footer a:hover {
+    color: #fedc00;
+}
+
+@media (max-width: 490px) {
+    form.subscribe {
+        flex-direction: column;
+    }
+
+    form.subscribe input[type="submit"] {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .brand p {
+        display: none;
+    }
 }
