@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     min-height: 100vh;
+    background-size: cover;
 }
 
 p {
@@ -17,7 +18,7 @@ p {
 }
 
 svg {
-    fill: white;
+    fill: #fecd07;
     height: 85px;
     display: block;
     margin: auto 25px 0 0;
@@ -26,6 +27,7 @@ svg {
 .brand p {
     font-size: 20px;
     color: #fff;
+    margin-bottom: 2px;
 }
 
 .body p {
@@ -43,7 +45,7 @@ h1 {
 h2 {
     margin-top: 35px;
     margin-bottom: 15px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
     color: white;
 }
@@ -91,13 +93,13 @@ form.subscribe input[type="submit"] {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    background: #4f4fff;
-    color: white;
+    background: #fecd07;
+    color: #111111;
     font-weight: 400;
 }
 
 form.subscribe input[type="submit"]:hover {
-    background: #1519ff;
+    background: #fedc00;
 }
 
 footer a {
