@@ -3,7 +3,7 @@
   <h2 align="center">noon.sh</h2>
   
   <p align="center">
-      <a href="http://noonify.github.io">
+      <a href="https://noonify.github.io">
         <img src="https://img.shields.io/badge/Subscribe-Email-yellow.svg"/>
       </a>
       <a href="https://twitter.com/intent/user?screen_name=noonify">
@@ -20,4 +20,4 @@ Every application these days is built around APIs and being the developers worki
 We are still in private alpha and are working hard to release the first public beta soon. 
 
 ### How can I find if it is ready?
-Subscribe with your email at [noon.sh](http://noonify.github.io) or follow at [@noonify](https://twitter.com/noonify) to stay up to date.
+Subscribe with your email at [noon.sh](https://noonify.github.io) or follow at [@noonify](https://twitter.com/noonify) to stay up to date.
