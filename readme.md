@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/Subscribe-Email-yellow.svg"/>
       </a>
       <a href="https://twitter.com/intent/user?screen_name=noonify">
-        <img src="https://img.shields.io/badge/follow-@noonify-blue.svg"/>
+        <img src="https://img.shields.io/badge/twitter-@noonify-blue.svg"/>
       </a>
   </p>
   <p align="center">Beautiful yet powerful desktop app for all your API needs</p>
