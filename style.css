@@ -73,7 +73,7 @@ form.subscribe {
     width: 100%;
 }
 
-form.subscribe input[type="text"] {
+form.subscribe input[type="email"] {
     border: none;
     flex: 1;
     padding: 13px;
